@@ -41,13 +41,12 @@ Las sugerencias proporcionadas por la IA fueron revisadas y adaptadas durante el
 
 La experiencia que tengo con herramientas de inteligencia artificial consiste en usarlas como apoyo para estudiar y comprender temas que me resulten difíciles.
 
-La herramienta que utilicé fue ChatGPT, en su plan gratuito.
+La herramienta que utilicé fue ChatGPT, con el plan gratuito.
+
+La imagen utilizada en la sección "Sobre mí" fue generada mediante IA con ChatGPT.
 
 ## Autor
 
 Micaela Laila Gargiulo
 
-GitHub: https://github.com/MicaelaGargiulo
-
-GitHub: https://github.com/MicaelaGargiulo
 GitHub: https://github.com/MicaelaGargiulo
