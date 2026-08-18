@@ -39,7 +39,7 @@ La herramienta fue utilizada principalmente para comprender conceptos de HTML y 
 
 Las sugerencias proporcionadas por la IA fueron revisadas y adaptadas durante el desarrollo del proyecto. Las decisiones relacionadas con el contenido, la organización de las secciones y el diseño visual fueron revisadas y modificadas por mí.
 
-La experiencia que tengo con herramientas de inteligencia artificial consiste en usarlas como apoyo para estudiar y comprender temas que me resulten difíciles.
+Mi experiencia previa con ChatGPT consiste en utilizarlo como apoyo para estudiar y comprender temas que me resulten difíciles.
 
 La herramienta que utilicé fue ChatGPT, con el plan gratuito.
 
