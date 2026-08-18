@@ -5,20 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
+
         <h1>Micaela Laila Gargiulo</h1>
+
         <p>Estudiante de Desarrollo de Software</p>
+
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#intereses">Intereses</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
     </header>
 
-    <main>
+   <main>
 
-        <section>
-            <h2>Sobre mí</h2>
+    <section id="sobre-mi">
+
+        <h2>Sobre mí</h2>
+
+        <div class="sobre-mi-contenido">
+
+            <img src="images/desarrollo-web.png" alt="Espacio de trabajo relacionado con desarrollo web y programación">
 
             <p>
                 Soy estudiante de Desarrollo de Software, interesada en el
@@ -26,9 +45,14 @@
                 Actualmente me encuentro formándome y desarrollando
                 mis conocimientos en diferentes áreas tecnológicas.
             </p>
-        </section>
 
-        <section>
+        </div>
+
+    </section>
+
+
+        <section id="habilidades">
+
             <h2>Habilidades</h2>
 
             <ul>
@@ -41,22 +65,26 @@
                 <li>CSS</li>
                 <li>Figma</li>
             </ul>
+
         </section>
 
-        <section>
+
+        <section id="proyectos">
+
             <h2>Mis proyectos</h2>
 
             <h3>Sistema de Gestión de Productos</h3>
 
             <p>
-                <p>
                 Proyecto realizado durante mi formación en Desarrollo de Software,
                 enfocado en la gestión de productos mediante archivos TXT.
-</p>
             </p>
+
         </section>
 
-        <section>
+
+        <section id="intereses">
+
             <h2>Mis intereses</h2>
 
             <p>
@@ -65,31 +93,57 @@
                 disfruto explorar herramientas que me permitan combinar
                 programación y creatividad.
             </p>
+
         </section>
 
-        <section>
-            <h2>Contacto</h2>
+        <section id="contacto">
 
-            <p>
-                Podés contactarme a través de mi correo electrónico.
-            </p>
+    <h2>Contacto</h2>
 
-            <p>
-                Correo electrónico:
-                <a href="mailto:micalailagargiulo@gmail.com">
-                    micalailagargiulo@gmail.com
-                </a>
-            </p>
+    <form>
 
-            <p>
-                GitHub:
-                <a href="https://github.com/Micaelagargiulo">
-                    Mi perfil de GitHub
-                </a>
-            </p>
-        </section>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-    </main>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+
+    </form>
+
+        <p>
+       
+           
+             También podés contactarme a través de mi correo electrónico.
+    </p>
+
+    <p>
+        Correo electrónico:
+        <a href="mailto:micalailagargiulo@gmail.com">
+            micalailagargiulo@gmail.com
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/Micaelagargiulo" target="_blank">
+            Mi perfil de GitHub
+        </a>
+    </p>
+
+</section>
+
+        </main>
+
+    <footer>
+        <p>
+            © 2026 Micaela Laila Gargiulo. Todos los derechos reservados.
+        </p>
+    </footer>
 
 </body>
 
